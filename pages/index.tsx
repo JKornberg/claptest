@@ -5,7 +5,7 @@ import Head from 'next/head';
 const Home = () => (
   <div>
     <Head>
-      {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" /> */}
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" />
     </Head>
     <Container maxW="container.xl" p={0}>
       <VStack w="full" h="full" p={10} alignItems="start">
